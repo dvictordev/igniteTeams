@@ -1,14 +1,14 @@
 import styled from "styled-components/native";
 
 export const Container = styled.View`
-    flex: 1;
-    background-color:#000;  
-    align-items: center;
-    justify-content: center;
-`
+  flex: 1;
+  background-color: ${({ theme }) => theme.COLORS.GRAY_300};
+  align-items: center;
+  justify-content: center;
+`;
 
 export const Title = styled.Text`
-    color:#fff;
-    font-size: 40px;
-    font-weight: bold;
-`
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+`;
